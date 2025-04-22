@@ -39,7 +39,6 @@ export const CourseCardImage = ({ cardId, orientation }) => {
             <Badge as="div" variant="success" className="w-100">
               {formatMessage(messages.verifiedBanner)}
             </Badge>
-            <img src={verifiedRibbon} alt={formatMessage(messages.verifiedBannerRibbonAlt)} />
           </span>
         )
       }
